@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.SVGPath?>
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arabie.PrimaryController">
+   <children>
+      <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <SVGPath fx:id="svgPath" content="M380.52.5h152s66,6,86.67,85.33-78,114.67-78,114.67H380.52L238.52.5h-154S-.82,19.17.52,97.5s71.33,103.67,79.33,103,157.33,0,157.33,0Z" fill="TRANSPARENT" fillRule="EVEN_ODD" stroke="BLACK" strokeWidth="30.0" BorderPane.alignment="CENTER" />
+         </center>
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+      </BorderPane>
+   </children>
+</AnchorPane>

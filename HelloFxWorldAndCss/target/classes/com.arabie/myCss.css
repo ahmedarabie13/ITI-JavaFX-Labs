@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+.pane{
+     -fx-background-color: linear-gradient(#000000 0%, #ffffff 50%, #000000 100%);
+}
+
+@font-face {
+     -fx-font-family: 'Goldman';
+     src: url('/Goldman-Regular.ttf');
+}
+@font-face {
+     font-family: myFirstFont;
+     src: url('/Goldman-Regular.ttf');
+     font-weight: bold;
+}
+.label{
+     -fx-font-weight: bold;
+     -fx-text-fill: #f00000;
+     -fx-font-size: 40;
+     -fx-font-family: 'Roboto Light';
+
+}
+
+.my-robot-label{
+     -fx-font-family: 'Yusei Magic';
+}
+
+
+.my-robot-label2{
+     -fx-font-family: myFirstFont;
+}
